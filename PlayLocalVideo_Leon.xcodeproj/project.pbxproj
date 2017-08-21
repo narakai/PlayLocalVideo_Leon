@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1E61D0B1F49E2CD0078D67E /* emoji zone.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B1E61D0A1F49E2CD0078D67E /* emoji zone.mp4 */; };
+		FCA153F45A2992405716B084 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCA157D84244DCC3E6C76EC0 /* Assets.xcassets */; };
+		FCA156A9FED3596275935A96 /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA151542D0B703397AA2570 /* VideoCell.swift */; };
+		FCA157BC3A39173A2952AEF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA15D1A5055F1B880482C43 /* AppDelegate.swift */; };
+		FCA15B81B3F24786DA503C36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA151BC18AF99C9C139CE51 /* ViewController.swift */; };
+		FCA15D36CCC1FD29B9AD3623 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA151A6171C417E160C1133 /* LaunchScreen.storyboard */; };
+		FCA15E068C038D95339FA545 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA154163CE5F992435D6D57 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B1E61D0A1F49E2CD0078D67E /* emoji zone.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "emoji zone.mp4"; sourceTree = "<group>"; };
+		FCA151542D0B703397AA2570 /* VideoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
+		FCA151BC18AF99C9C139CE51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FCA154924B8DCA7B79180E2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCA157D84244DCC3E6C76EC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCA15B5B0A0A3731FB6700D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		FCA15B684217B5DB03AD4F6C /* PlayLocalVideo_Leon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayLocalVideo_Leon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCA15B8B9802AA6FAC0CF1E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCA15D1A5055F1B880482C43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCA158D118059AF99126194E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCA15004DA17B04CAEDE407D = {
+			isa = PBXGroup;
+			children = (
+				FCA1575902E781AECFF72563 /* Products */,
+				FCA15744B660F160AA6288A2 /* PlayLocalVideo_Leon */,
+			);
+			sourceTree = "<group>";
+		};
+		FCA15744B660F160AA6288A2 /* PlayLocalVideo_Leon */ = {
+			isa = PBXGroup;
+			children = (
+				B1E61D0A1F49E2CD0078D67E /* emoji zone.mp4 */,
+				FCA15B5B0A0A3731FB6700D8 /* Info.plist */,
+				FCA157D84244DCC3E6C76EC0 /* Assets.xcassets */,
+				FCA151A6171C417E160C1133 /* LaunchScreen.storyboard */,
+				FCA15D1A5055F1B880482C43 /* AppDelegate.swift */,
+				FCA154163CE5F992435D6D57 /* Main.storyboard */,
+				FCA151BC18AF99C9C139CE51 /* ViewController.swift */,
+				FCA151542D0B703397AA2570 /* VideoCell.swift */,
+			);
+			path = PlayLocalVideo_Leon;
+			sourceTree = "<group>";
+		};
+		FCA1575902E781AECFF72563 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCA15B684217B5DB03AD4F6C /* PlayLocalVideo_Leon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCA15BCB38A01929A7518966 /* PlayLocalVideo_Leon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCA154E414000D06A887F467 /* Build configuration list for PBXNativeTarget "PlayLocalVideo_Leon" */;
+			buildPhases = (
+				FCA15B0068982719E30F5CC7 /* Sources */,
+				FCA158D118059AF99126194E /* Frameworks */,
+				FCA15048C1ECE75391A77B60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayLocalVideo_Leon;
+			productName = PlayLocalVideo_Leon;
+			productReference = FCA15B684217B5DB03AD4F6C /* PlayLocalVideo_Leon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCA150F6FA00FADA953C7083 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = clem;
+				TargetAttributes = {
+					FCA15BCB38A01929A7518966 = {
+						DevelopmentTeam = FCKB72E74L;
+					};
+				};
+			};
+			buildConfigurationList = FCA15BC001279F6BF31FDB04 /* Build configuration list for PBXProject "PlayLocalVideo_Leon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FCA15004DA17B04CAEDE407D;
+			productRefGroup = FCA1575902E781AECFF72563 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCA15BCB38A01929A7518966 /* PlayLocalVideo_Leon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCA15048C1ECE75391A77B60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA153F45A2992405716B084 /* Assets.xcassets in Resources */,
+				B1E61D0B1F49E2CD0078D67E /* emoji zone.mp4 in Resources */,
+				FCA15D36CCC1FD29B9AD3623 /* LaunchScreen.storyboard in Resources */,
+				FCA15E068C038D95339FA545 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCA15B0068982719E30F5CC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA157BC3A39173A2952AEF5 /* AppDelegate.swift in Sources */,
+				FCA15B81B3F24786DA503C36 /* ViewController.swift in Sources */,
+				FCA156A9FED3596275935A96 /* VideoCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FCA151A6171C417E160C1133 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCA154924B8DCA7B79180E2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FCA154163CE5F992435D6D57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCA15B8B9802AA6FAC0CF1E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCA150823C07E2E3CB26C303 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FCKB72E74L;
+				INFOPLIST_FILE = PlayLocalVideo_Leon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clem.www.PlayLocalVideo-Leon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.1;
+			};
+			name = Debug;
+		};
+		FCA15873D6377DD3288F75BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCA15A714A698AB4CBE4A260 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FCKB72E74L;
+				INFOPLIST_FILE = PlayLocalVideo_Leon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clem.www.PlayLocalVideo-Leon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.1;
+			};
+			name = Release;
+		};
+		FCA15DC03A1BE9E6EBF728D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCA154E414000D06A887F467 /* Build configuration list for PBXNativeTarget "PlayLocalVideo_Leon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA150823C07E2E3CB26C303 /* Debug */,
+				FCA15A714A698AB4CBE4A260 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCA15BC001279F6BF31FDB04 /* Build configuration list for PBXProject "PlayLocalVideo_Leon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA15DC03A1BE9E6EBF728D1 /* Debug */,
+				FCA15873D6377DD3288F75BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCA150F6FA00FADA953C7083 /* Project object */;
+}
