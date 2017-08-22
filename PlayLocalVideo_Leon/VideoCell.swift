@@ -34,11 +34,6 @@ class VideoCell: UITableViewCell {
     let videoSource = UILabel(frame: CGRect(x: 0, y: YHScreenHeight / 3 - 20, width: YHScreenWidth, height: 20))
     private let videoPlay = UIImageView(frame: CGRect(x: 0, y: 0, width: YHScreenWidth, height: YHScreenHeight / 3))
 
-    override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
-        super.init(style: style, reuseIdentifier: reuseIdentifier)
-        setupView()
-    }
-
     private func setupView() {
         videoImage.contentMode = .scaleAspectFill
         videoPlay.contentMode = .center
@@ -67,6 +62,11 @@ class VideoCell: UITableViewCell {
     //而其他情况下则会隐式继承，我们可以不用理会。
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+
+    override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
+        super.init(style: style, reuseIdentifier: reuseIdentifier)
+        setupView()
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
